@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_characteristic_hero"
+    tools:context=".DetailsHeroActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#74000000"
+        android:text="Name Hero"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image"
+        app:layout_constraintStart_toStartOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/tvTextIntelligence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_for_text_characteristic_hero"
+        android:text="@string/intelligence"
+        android:textColor="#AFAFAF"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/tvValueIntelligence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_for_value_characteristic_hero"
+        android:text="0.0"
+        android:textColor="@color/color_for_value_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintBottom_toBottomOf="@id/tvTextIntelligence"
+        app:layout_constraintStart_toEndOf="@id/tvTextIntelligence"
+        app:layout_constraintTop_toTopOf="@id/tvTextIntelligence" />
+
+    <TextView
+        android:id="@+id/tvTextStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_for_text_characteristic_hero"
+        android:text="@string/strength"
+        android:textColor="@color/color_for_text_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTextIntelligence" />
+
+    <TextView
+        android:id="@+id/tvValueStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_for_value_characteristic_hero"
+        android:text="0.0"
+        android:textColor="@color/color_for_value_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintBottom_toBottomOf="@id/tvTextStrength"
+        app:layout_constraintStart_toEndOf="@id/tvTextStrength"
+        app:layout_constraintTop_toTopOf="@id/tvTextStrength" />
+
+    <TextView
+        android:id="@+id/tvTextSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_for_text_characteristic_hero"
+        android:text="@string/speed"
+        android:textColor="@color/color_for_text_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTextStrength" />
+
+    <TextView
+        android:id="@+id/tvValueSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_for_value_characteristic_hero"
+        android:text="0.0"
+        android:textColor="@color/color_for_value_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintBottom_toBottomOf="@id/tvTextSpeed"
+        app:layout_constraintStart_toEndOf="@id/tvTextSpeed"
+        app:layout_constraintTop_toTopOf="@id/tvTextSpeed" />
+
+    <TextView
+        android:id="@+id/tvTextDurability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_for_text_characteristic_hero"
+        android:text="@string/durability"
+        android:textColor="@color/color_for_text_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTextSpeed" />
+
+    <TextView
+        android:id="@+id/tvValueDurability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_for_value_characteristic_hero"
+        android:text="0.0"
+        android:textColor="@color/color_for_value_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintBottom_toBottomOf="@id/tvTextDurability"
+        app:layout_constraintStart_toEndOf="@id/tvTextDurability"
+        app:layout_constraintTop_toTopOf="@id/tvTextDurability" />
+
+    <TextView
+        android:id="@+id/tvTextPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_for_text_characteristic_hero"
+        android:text="@string/power"
+        android:textColor="@color/color_for_text_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTextDurability" />
+
+    <TextView
+        android:id="@+id/tvValuePower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_for_value_characteristic_hero"
+        android:text="0.0"
+        android:textColor="@color/color_for_value_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintBottom_toBottomOf="@id/tvTextPower"
+        app:layout_constraintStart_toEndOf="@id/tvTextPower"
+        app:layout_constraintTop_toTopOf="@id/tvTextPower" />
+
+    <TextView
+        android:id="@+id/tvTextCombat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_for_text_characteristic_hero"
+        android:text="@string/combat"
+        android:textColor="@color/color_for_text_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTextPower" />
+
+    <TextView
+        android:id="@+id/tvValueCombat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_for_value_characteristic_hero"
+        android:text="0.0"
+        android:textColor="@color/color_for_value_characteristic_hero"
+        android:textSize="@dimen/size_text_characteristic_hero"
+        app:layout_constraintBottom_toBottomOf="@id/tvTextCombat"
+        app:layout_constraintStart_toEndOf="@id/tvTextCombat"
+        app:layout_constraintTop_toTopOf="@id/tvTextCombat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
