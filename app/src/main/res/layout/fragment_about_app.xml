@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:linksClickable="true"
+        android:gravity="center"
         android:text="@string/https_github_com_artemshatokhin92"
         android:textColor="@color/text_about_app"
         android:textSize="20sp"
