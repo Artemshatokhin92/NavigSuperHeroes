@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:text="@string/_17_06_2022"
+        android:text="@string/data_creatind_app"
         android:textColor="@color/text_about_app"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
