@@ -73,4 +73,7 @@ dependencies {
     // region Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
     // endregion
+
+    // Cicerone
+    implementation("com.github.terrakok:cicerone:7.1")
 }

@@ -5,6 +5,11 @@
       <map>
         <entry key="..\:/Users/artem/AndroidStudioProjects/DBSPSuperHeroes/app/src/main/res/layout/activity_details_hero.xml" value="0.25" />
         <entry key="..\:/Users/artem/AndroidStudioProjects/DBSPSuperHeroes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/NavigSuperHeroes/app/src/main/res/layout/activity_details_hero.xml" value="0.25" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/NavigSuperHeroes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/NavigSuperHeroes/app/src/main/res/layout/fragment_about_app.xml" value="0.25" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/NavigSuperHeroes/app/src/main/res/layout/fragment_details_hero.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/NavigSuperHeroes/app/src/main/res/layout/fragment_random_heroes_main.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>

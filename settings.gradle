@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "DB SP SuperHeroes"
+rootProject.name = "NavigSuperHeroes"
 include ':app'
